@@ -41,15 +41,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCb0PouS_ZrKAIq1jE0YaFHXE9whZqeWJU',
-    appId: '1:626863155820:web:3aad92ed262d9e00edc649',
-    messagingSenderId: '626863155820',
-    projectId: 'nav-5e00d',
-    authDomain: 'nav-5e00d.firebaseapp.com',
-    storageBucket: 'nav-5e00d.firebasestorage.app',
-    measurementId: 'G-NZWYNPRQNL',
+    apiKey: 'AIzaSyDWevu8v2fg0bG55Rf2uThacrhNY4ULJyk',
+    appId: '1:855301619316:web:f158cf7830e070cf71db21',
+    messagingSenderId: '855301619316',
+    projectId: 'nav-c59cd',
+    authDomain: 'nav-c59cd.firebaseapp.com',
+    storageBucket: 'nav-c59cd.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBfuTh38f6NNgROuWo6UPOxcLVXRL1_gk0',
     appId: '1:626863155820:ios:db29c3e529c615f2edc649',
@@ -79,10 +77,10 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCJe3Aa6P8f6Cv27YEFIzi-QAE1bcfUGww',
-    appId: '1:626863155820:android:6f6bf74853f01036edc649',
-    messagingSenderId: '626863155820',
-    projectId: 'nav-5e00d',
-    storageBucket: 'nav-5e00d.firebasestorage.app',
+    apiKey: 'AIzaSyCGkHB35qyyCxkAvtJd4bjyZX1v-QShrSw',
+    appId: '1:855301619316:android:961cfad9731a337271db21',
+    messagingSenderId: '855301619316',
+    projectId: 'nav-c59cd',
+    storageBucket: 'nav-c59cd.firebasestorage.app',
   );
 }

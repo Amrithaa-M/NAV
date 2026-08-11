@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "626863155820",
-    "project_id": "nav-5e00d",
-    "storage_bucket": "nav-5e00d.firebasestorage.app"
+    "project_number": "855301619316",
+    "project_id": "nav-c59cd",
+    "storage_bucket": "nav-c59cd.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:626863155820:android:5ddf289e68cc0257edc649",
+        "mobilesdk_app_id": "1:855301619316:android:5947f876019417f571db21",
         "android_client_info": {
-          "package_name": "com.android.application"
+          "package_name": "com.company.nav"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCJe3Aa6P8f6Cv27YEFIzi-QAE1bcfUGww"
+          "current_key": "AIzaSyCGkHB35qyyCxkAvtJd4bjyZX1v-QShrSw"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:626863155820:android:6f6bf74853f01036edc649",
+        "mobilesdk_app_id": "1:855301619316:android:961cfad9731a337271db21",
         "android_client_info": {
           "package_name": "com.example.nav"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCJe3Aa6P8f6Cv27YEFIzi-QAE1bcfUGww"
+          "current_key": "AIzaSyCGkHB35qyyCxkAvtJd4bjyZX1v-QShrSw"
         }
       ],
       "services": {

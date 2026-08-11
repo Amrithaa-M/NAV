@@ -1,8 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <application
         android:label="nav"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
+        <!-- TODO: Replace YOUR_API_KEY_HERE with your actual Google Maps API Key -->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBMEMkcAfAREitC_ljTWSLKIubNXC_3NT0"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
