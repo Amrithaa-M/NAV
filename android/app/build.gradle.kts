@@ -7,10 +7,24 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+// Read local.properties for API keys
+val localProperties = java.util.Properties()
+val localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.inputStream().use { localProperties.load(it) }
+}
+
 android {
     namespace = "com.example.nav"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
+
+    defaultConfig {
+        manifestPlaceholders["MAPS_API_KEY"] = localProperties.getProperty("MAPS_API_KEY", "")
+    }
+
+    buildTypes {
+        release {
             signingConfig = signingConfigs.getByName("debug")
         }
     }
